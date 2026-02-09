@@ -1,0 +1,146 @@
+{
+  "uuid": "bae1807f-a197-4cd8-95a6-6838e13556d9",
+  "name": "Place an order as a logged in user",
+  "historyId": "90abeee43087baf120cce6c476dedbad",
+  "status": "broken",
+  "statusDetails": {
+    "message": "TypeError: Cannot read properties of undefined (reading 'isDisplayed')",
+    "trace": "TypeError: Cannot read properties of undefined (reading 'isDisplayed')\n    at ProductsPage.addMultipleVisibleProductsToCart (C:\\Users\\benaz\\Desktop\\task\\task\\src\\pageobjects\\ProductsPage.ts:235:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async World.<anonymous> (C:\\Users\\benaz\\Desktop\\task\\task\\src\\step-definitions\\Products.steps.ts:106:19)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1770641263423,
+      "name": "Given I navigate to url \"/\"",
+      "stop": 1770641267058
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1770641267059,
+      "name": "When I click on the \"Signup / Login\" link",
+      "stop": 1770641268067
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1770641268067,
+      "name": "And I should be on the login page",
+      "stop": 1770641268148
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1770641268148,
+      "name": "And I login with valid credentials",
+      "stop": 1770641280614
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1770641280615,
+      "name": "Then I should see \"Logged in as\" at the top right menu",
+      "stop": 1770641281217
+    },
+    {
+      "status": "broken",
+      "statusDetails": {
+        "message": "TypeError: Cannot read properties of undefined (reading 'isDisplayed')",
+        "trace": "TypeError: Cannot read properties of undefined (reading 'isDisplayed')\n    at ProductsPage.addMultipleVisibleProductsToCart (C:\\Users\\benaz\\Desktop\\task\\task\\src\\pageobjects\\ProductsPage.ts:235:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async World.<anonymous> (C:\\Users\\benaz\\Desktop\\task\\task\\src\\step-definitions\\Products.steps.ts:106:19)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Screenshot on failure",
+          "attachments": [
+            {
+              "name": "Screenshot on failure",
+              "source": "3b7b1d0e-98aa-4276-9934-e906f2db2ecf-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "start": 1770641289893,
+          "stop": 1770641289893
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "b9c6bd84-9c89-4dfc-a5c4-8e50c751be6c-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1770641281217,
+      "name": "When I add 3 products to the cart",
+      "stop": 1770641289894
+    },
+    {
+      "status": "skipped",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1770641289895,
+      "name": "And I proceed to checkout",
+      "stop": 1770641289896
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "browser",
+      "value": "chrome-144.0.7559.133"
+    }
+  ],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Checkout"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Checkout"
+    },
+    {
+      "name": "language",
+      "value": "javascript"
+    },
+    {
+      "name": "framework",
+      "value": "wdio"
+    },
+    {
+      "name": "thread",
+      "value": "0-0"
+    }
+  ],
+  "links": [],
+  "start": 1770641263407,
+  "testCaseId": "90abeee43087baf120cce6c476dedbad",
+  "fullName": "src/features/Place-Order-And-Login/AE-CHK-001-Place-Order.feature#Checkout Place an order as a logged in user",
+  "stop": 1770641289901
+}

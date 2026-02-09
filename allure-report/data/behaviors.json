@@ -1,0 +1,33 @@
+{
+  "uid": "b1a8273437954620fa374b796ffaacdd",
+  "name": "behaviors",
+  "children": [
+    {
+      "name": "Browser Factory Verification",
+      "children": [
+        {
+          "name": "Verify the browser launches correctly",
+          "uid": "4a667ff49a9e78e0",
+          "parentUid": "820d3c5afa0f75e1ac7df5f26c4ab4dd",
+          "status": "passed",
+          "time": {
+            "start": 1770553510098,
+            "stop": 1770553515887,
+            "duration": 5789
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": [
+            "chrome-144.0.7559.133"
+          ],
+          "tags": []
+        }
+      ],
+      "uid": "820d3c5afa0f75e1ac7df5f26c4ab4dd"
+    }
+  ]
+}

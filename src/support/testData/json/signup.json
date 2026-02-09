@@ -1,0 +1,20 @@
+{
+  "user_valid": {
+    "name": "Test User",
+    "email": "test.user+1@example.com",
+    "password": "Password123",
+    "firstName": "Test",
+    "lastName": "User",
+    "address": "221B Baker Street",
+    "country": "India",
+    "state": "MH",
+    "city": "Mumbai",
+    "zipcode": "400001",
+    "mobileNumber": "9999999999"
+  },
+  "user_existing": {
+    "name": "Existing User",
+    "email": "existing@example.com",
+    "password": "Password123"
+  }
+}
